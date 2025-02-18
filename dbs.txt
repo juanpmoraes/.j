@@ -1,0 +1,4 @@
+system/oracle@oem
+system/oracle@orcl
+system/oracle@juan
+system/oracle@xpdb

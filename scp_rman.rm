@@ -1,0 +1,5 @@
+run{
+allocate channel d1 device type disk;
+backup as compressed backupset database tag 'backup_cold_dados' format '/u01/app/oracle/backup/bkp_orcl/banco-%T-%d-%s.bkp';
+backup current controlfile tag 'bkp_cold_control' format '/u01/app/oracle/backup/bkp_orcl/control-%d-%T-%s.bkp';
+}
